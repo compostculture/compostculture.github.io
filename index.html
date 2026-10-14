@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://compostculture.com/">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>Compost Culture — The Science of Composting</title>
+    <meta name="description" content="Evidence-based composting research. Real temperature logs, decomposition data, and product testing for serious composters.">
+    <link rel="stylesheet" href="src/styles/theme.css">
+    <style>
+        .hero-wide { text-align: center; padding: 3rem 2rem 2.5rem; background: white; border-radius: 16px; box-shadow: var(--card-shadow); margin-bottom: 2rem; }
+        .hero-wide img { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 20px rgba(45,90,39,0.15); }
+        .hero-wide h1 { font-family: 'Lora', serif; color: var(--forest-green); font-size: 2.75rem; margin: 1rem 0 0.5rem; letter-spacing: -0.5px; }
+        .hero-wide .subtitle { font-family: 'Lora', serif; color: var(--ocean-blue); font-style: italic; font-size: 1.2rem; margin-bottom: 1rem; }
+        .section-header-wide { text-align: center; padding: 2rem 1rem 1rem; max-width: 900px; margin: 0 auto; }
+        .section-header-wide h2 { font-size: 1.75rem; color: var(--forest-green); margin-bottom: 0.5rem; }
+        .pillar-grid-wide { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; max-width: 900px; margin: 0 auto; padding: 0 1rem 2rem; }
+        .pillar-card-wide { background: white; border-radius: 16px; box-shadow: var(--card-shadow); padding: 2rem; transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; }
+        .pillar-card-wide:hover { transform: translateY(-4px); box-shadow: 0 15px 35px -5px rgba(75,54,33,0.15); }
+        .pillar-card-wide h3 { font-family: 'Lora', serif; color: var(--forest-green); margin-top: 0; }
+        .pillar-card-wide p { opacity: 0.8; line-height: 1.6; flex-grow: 1; }
+        .pillar-card-wide a { display: inline-block; margin-top: 1rem; color: var(--ocean-blue); font-weight: 600; text-decoration: none; }
+        @media (max-width: 768px) { .pillar-grid-wide { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <header class="hero-wide">
+            <img src="/assets/logo.png" alt="Compost Culture Logo">
+            <h1>Compost Culture</h1>
+            <p class="subtitle">The science behind the soil.</p>
+            <p style="max-width: 600px; margin: 0 auto; line-height: 1.7; color: var(--text-dark); opacity: 0.85;">
+                Real temperature logs, decomposition data, and product testing for serious composters. No fluff — just evidence-based results.
+            </p>
+        </header>
+
+        <div class="section-header-wide">
+            <h2>Research Areas</h2>
+            <p>Explore our ongoing studies and product comparisons.</p>
+        </div>
+
+        <div class="pillar-grid-wide">
+            <div class="pillar-card-wide">
+                <h3>🌡️ Thermometer Testing</h3>
+                <p>Real temp logs comparing $15 vs. $80 compost thermometers over 30-day cycles.</p>
+                <a href="/articles/thermometer-showdown.html" class="read-more">Read study →</a>
+            </div>
+            <div class="pillar-card-wide">
+                <h3>🧪 Method Comparison</h3>
+                <p>Hot vs. Cold vs. Bokashi — 30-day decomposition race with carbon/nitrogen tracking.</p>
+                <a href="/articles/method-comparison.html" class="read-more">Read study →</a>
+            </div>
+            <div class="pillar-card-wide">
+                <h3>🔧 Tool Reviews</h3>
+                <p>Lab-tested moisture meters, pH testers, and aeration tools for compost bins.</p>
+                <a href="/articles/tool-reviews.html" class="read-more">Read review →</a>
+            </div>
+            <div class="pillar-card-wide">
+                <h3>🌍 Climate Guides</h3>
+                <p>Region-specific composting methods with real-world performance data.</p>
+                <a href="/articles/climate-guide.html" class="read-more">Read guide →</a>
+            </div>
+        </div>
+
+        <footer style="text-align: center; padding: 2rem; opacity: 0.6; font-size: 0.85rem;">
+            Compost Culture — Evidence-based composting research.<br>
+            Built with real data, not opinions.
+        </footer>
+    </div>
+</body>
+</html>
