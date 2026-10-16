@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compost Culture Lab</title>
+    <link>https://compostculture.com/</link>
+    <description>Evidence-based composting research. Real temperature logs, decomposition data, and product testing for serious composters.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link href="https://compostculture.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Hot vs Cold vs Bokashi: Which Composting Method Actually Wins? | Compost Culture</title>
+    <link>https://compostculture.com/articles/04-hot-vs-cold-vs-bokashi.html</link>
+    <guid isPermaLink="true">https://compostculture.com/articles/04-hot-vs-cold-vs-bokashi.html</guid>
+    <description>Three composting methods compared on the numbers that matter: timeline to finished compost, pathogen kill, nitrogen retention, and effort. Hot piles finish in 3-8 weeks, cold piles take a season or more, bokashi ferments in two weeks but needs a second step.</description>
+    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+    <author>Compost Culture Lab</author>
+  </item>
+  <item>
+    <title>Compost Thermometer Showdown: $15 vs $60 Probes Compared | Compost Culture</title>
+    <link>https://compostculture.com/articles/03-compost-thermometer-showdown.html</link>
+    <guid isPermaLink="true">https://compostculture.com/articles/03-compost-thermometer-showdown.html</guid>
+    <description>Six compost thermometers from $15 to $60 compared on the specs that actually matter: hermetic sealing, stem gauge, and calibration. What separates cheap dials from expensive ones, and which one fits your pile size.</description>
+    <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
+    <author>Compost Culture Lab</author>
+  </item>
+  <item>
+    <title>Introduction to Compost Culture | Compost Culture Lab</title>
+    <link>https://compostculture.com/articles/01-introduction-to-compost-culture.html</link>
+    <guid isPermaLink="true">https://compostculture.com/articles/01-introduction-to-compost-culture.html</guid>
+    <description>A beginner-friendly guide to understanding compost cultures, the microorganisms that drive decomposition, and how to build a thriving compost ecosystem.</description>
+    <pubDate>Wed, 14 Oct 2026 12:00:00 GMT</pubDate>
+    <author>Compost Culture Lab</author>
+  </item>
+  <item>
+    <title>Microbial Succession in Composting | Compost Culture Lab</title>
+    <link>https://compostculture.com/articles/02-microbial-succession-in-composting.html</link>
+    <guid isPermaLink="true">https://compostculture.com/articles/02-microbial-succession-in-composting.html</guid>
+    <description>Understanding the succession of microorganisms through composting phases — from mesophilic bacteria to thermophilic actinomycetes and fungal colonizers.</description>
+    <pubDate>Wed, 14 Oct 2026 12:00:00 GMT</pubDate>
+    <author>Compost Culture Lab</author>
+  </item>
+  </channel>
+</rss>
