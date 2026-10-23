@@ -1,89 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="canonical" href="https://compostculture.com/">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <title>Compost Culture — The Science of Composting</title>
-    <meta name="description" content="Evidence-based composting research. Real temperature logs, decomposition data, and product testing for serious composters.">
-    <link rel="alternate" type="application/rss+xml" title="Compost Culture Lab RSS" href="/feed.xml">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://compostculture.com/">
-    <meta property="og:title" content="Compost Culture — The Science of Composting">
-    <meta property="og:description" content="Evidence-based composting research. Real temperature logs, decomposition data, and product testing for serious composters.">
-    <meta property="og:image" content="https://compostculture.com/images/og-index.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Compost Culture Lab", "url": "https://compostculture.com/", "description": "Evidence-based composting research. Real temperature logs, decomposition data, and product testing for serious composters."}</script>
-    <link rel="stylesheet" href="src/styles/theme.css">
-    <style>
-        .hero-wide { text-align: center; padding: 3rem 2rem 2.5rem; background: white; border-radius: 16px; box-shadow: var(--card-shadow); margin-bottom: 2rem; }
-        .hero-wide img { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 20px rgba(45,90,39,0.15); }
-        .hero-wide h1 { font-family: 'Lora', serif; color: var(--forest-green); font-size: 2.75rem; margin: 1rem 0 0.5rem; letter-spacing: -0.5px; }
-        .hero-wide .subtitle { font-family: 'Lora', serif; color: var(--ocean-blue); font-style: italic; font-size: 1.2rem; margin-bottom: 1rem; }
-        .section-header-wide { text-align: center; padding: 2rem 1rem 1rem; max-width: 900px; margin: 0 auto; }
-        .section-header-wide h2 { font-size: 1.75rem; color: var(--forest-green); margin-bottom: 0.5rem; }
-        .pillar-grid-wide { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; max-width: 980px; margin: 0 auto; padding: 0 1rem 2rem; }
-        .pillar-card-wide { background: white; border-radius: 16px; box-shadow: var(--card-shadow); padding: 2rem; transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; }
-        .pillar-card-wide:hover { transform: translateY(-4px); box-shadow: 0 15px 35px -5px rgba(75,54,33,0.15); }
-        .pillar-card-wide h3 { font-family: 'Lora', serif; color: var(--forest-green); margin-top: 0; }
-        .pillar-card-wide p { opacity: 0.8; line-height: 1.6; flex-grow: 1; }
-        .pillar-card-wide a { display: inline-block; margin-top: 1rem; color: var(--ocean-blue); font-weight: 600; text-decoration: none; }
-        @media (max-width: 768px) { .pillar-grid-wide { grid-template-columns: 1fr; } }
-    </style>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-01P1FVHJ9V"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-01P1FVHJ9V');
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compost Culture — The Science of Composting, Measured</title>
+  <meta name="description" content="Evidence-based composting: real specs, real test data, and honest tradeoffs. Compost bins, worm bins, and thermometers compared on the numbers that matter.">
+  <link rel="canonical" href="https://www.compostculture.com/">
+  <meta property="og:title" content="Compost Culture — The Science of Composting, Measured">
+  <meta property="og:description" content="Evidence-based composting: real specs, real test data, honest tradeoffs. Built with real data, not opinions.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.compostculture.com/">
+  <meta property="og:image" content="https://www.compostculture.com/img/hero-flipping-hot-pile.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <script src="config/site.js"></script>
+  <script src="config/affiliate.js"></script>
+  <script src="js/site.js"></script>
 </head>
 <body>
-    <div id="app">
-        <header class="hero-wide">
-            <img src="/assets/logo.png" alt="Compost Culture Logo">
-            <h1>Compost Culture</h1>
-            <p class="subtitle">The science behind the soil.</p>
-            <p style="max-width: 600px; margin: 0 auto; line-height: 1.7; color: var(--text-dark); opacity: 0.85;">
-                Real temperature logs, decomposition data, and product testing for serious composters. No fluff — just evidence-based results.
-            </p>
-        </header>
+  <a class="skip" href="#main">Skip to content</a>
 
-        <div class="section-header-wide">
-            <h2>Research Areas</h2>
-            <p>Explore our ongoing studies and product comparisons.</p>
+  <header class="nav">
+    <a class="nav-logo" href="index.html">compost<span class="dot">culture</span></a>
+    <button class="nav-burger" aria-label="Menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </button>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="shop.html">Shop</a>
+      <a href="best-worm-bins.html">Worm Bins</a>
+      <a href="best-compost-bins.html">Compost Bins</a>
+      <a href="articles/03-compost-thermometer-showdown.html">Thermometers</a>
+      <a href="articles/01-introduction-to-compost-culture.html">Articles</a>
+      <a href="about.html">About</a>
+      <a class="nav-cta" href="shop.html">Shop the gear</a>
+    </nav>
+  </header>
+
+  <div class="stage">
+    <figure class="stage-photo">
+      <img src="img/hero-flipping-hot-pile.jpg" alt="A compost fork mid-flip in a hot compost pile, dark crumbly material turning over" width="1920" height="1280" fetchpriority="high">
+      <figcaption>Turning the second day of a hot pile — <a href="https://commons.wikimedia.org/wiki/File:Flipping_hot_compost_pile_811.JPG" target="_blank" rel="noopener">SB Johnny, CC BY-SA 3.0</a></figcaption>
+    </figure>
+
+    <main class="stage-body" id="main">
+      <header class="intro">
+        <span class="label">The science of composting, measured</span>
+        <h1>Compost runs on biology. We read the instruments.</h1>
+        <p class="dek">Every recommendation on this site starts from specs, published test data, and long-term user reports — then gets a clear verdict on which tool fits your pile. No sponsored placements, no vague "top picks." If we don't have the number, we say so.</p>
+        <p class="intro-meta">Evidence-based · Amazon-affiliate supported · Updated as new test data lands</p>
+      </header>
+
+      <section class="section" aria-labelledby="h-why">
+        <h2 id="h-why">Why measurement</h2>
+        <p>A compost pile is a reactor with a temperature curve, an oxygen budget, and a clock. The mesophilic bacteria warm it to roughly 120&deg;F, the thermophiles push it past 131&deg;F — the threshold where the EPA requires three days of sustained heat to sanitize pathogens — and then the pile cools into curing. You can run all of that blind, and you probably will for a while. But the moment you want finished compost on a schedule, or weed-free and pathogen-low output for vegetable beds, you need instruments and equipment matched to the job.</p>
+        <p>That's the whole site in one line: the gear, ranked by the data, written in plain English.</p>
+      </section>
+
+      <figure class="plate reveal">
+        <span class="plate-no">Field footage</span>
+        <video src="img/steaming-compost.webm" poster="img/steaming-compost-poster.jpg" muted loop playsinline preload="metadata" width="1280" height="960"></video>
+        <figcaption>A day-two hot pile at the top of its thermophilic phase. Steam = active microbial metabolism. <a href="https://commons.wikimedia.org/wiki/File:Steaming_compost_in_Nymans_Garden.webm" target="_blank" rel="noopener">Andy Li, CC0</a></figcaption>
+      </figure>
+
+      <aside class="slip reveal" aria-label="Numbers worth knowing">
+        <div class="slip-head"><span>Field slip</span><span>No. 001</span></div>
+        <div class="slip-title">Numbers worth knowing</div>
+        <div class="slip-row"><span>Thermophilic phase</span><span class="dots"></span><span class="val">120&ndash;160&deg;F</span></div>
+        <div class="slip-row"><span>Pathogen-sanitizing hold</span><span class="dots"></span><span class="val">&gt;131&deg;F &times; 3 days</span></div>
+        <div class="slip-row"><span>Weed-seed mortality</span><span class="dots"></span><span class="val">&gt;140&deg;F sustained</span></div>
+        <div class="slip-row"><span>Healthy C:N range</span><span class="dots"></span><span class="val">25:1 &ndash; 30:1</span></div>
+        <div class="slip-row"><span>Working moisture</span><span class="dots"></span><span class="val">50&ndash;60% (wrung sponge)</span></div>
+        <div class="slip-row"><span>Minimum pile volume</span><span class="dots"></span><span class="val">~4&ndash;5 m&sup3; (hot compost)</span></div>
+        <div class="slip-foot">Sources: EPA composting guidelines, standard vermicomposting literature. Where a figure is a rule-of-thumb, the article says which study or source it comes from.</div>
+      </aside>
+
+      <section class="section" aria-labelledby="h-gear">
+        <h2 id="h-gear">What we test</h2>
+        <p>We start with the gear that shows up in the most composting forums and group-buy threads — because that's what readers ask about. Each roundup compares models on the construction features that determine real-world life: sealing, materials, dimensions, and the numbers the manufacturer publishes.</p>
+        <ol class="picks">
+          <li class="pick">
+            <span class="pick-idx">W&middot;01</span>
+            <div>
+              <div class="pick-name">Worm bins &amp; worm farms</div>
+              <p class="pick-why">Five indoor bins compared — trays, bags, and buckets. Which one composts food scraps without smell, in an apartment, through winter. <a href="best-worm-bins.html">Read the worm bin comparison &rarr;</a></p>
+            </div>
+          </li>
+          <li class="pick">
+            <span class="pick-idx">C&middot;01</span>
+            <div>
+              <div class="pick-name">Compost bins &amp; tumblers</div>
+              <p class="pick-why">Seven outdoor systems from a $100 tumbler to an 80-gallon aeration box. Aeration access, lid seal, and flip weight are the specs that matter. <a href="best-compost-bins.html">Read the bin comparison &rarr;</a></p>
+            </div>
+          </li>
+          <li class="pick">
+            <span class="pick-idx">T&middot;01</span>
+            <div>
+              <div class="pick-name">Compost thermometers</div>
+              <p class="pick-why">Six dials from $15 to $60, compared on hermetic sealing, stem gauge, and published accuracy. The $15&ndash;$60 gap is construction, not marketing. <a href="articles/03-compost-thermometer-showdown.html">Read the thermometer showdown &rarr;</a></p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section" aria-labelledby="h-articles">
+        <h2 id="h-articles">The science articles</h2>
+        <ol class="picks">
+          <li class="pick">
+            <span class="pick-idx">A&middot;01</span>
+            <div>
+              <div class="pick-name">Introduction to compost culture</div>
+              <p class="pick-why">The foundation: what composting actually is, the four inputs that control speed, and where home practice lands on the curve. <a href="articles/01-introduction-to-compost-culture.html">Read &rarr;</a></p>
+            </div>
+          </li>
+          <li class="pick">
+            <span class="pick-idx">A&middot;02</span>
+            <div>
+              <div class="pick-name">Microbial succession in composting</div>
+              <p class="pick-why">Who eats what, in what order: the community handoffs from mesophiles to thermophiles to fungi, and what each phase asks of you. <a href="articles/02-microbial-succession-in-composting.html">Read &rarr;</a></p>
+            </div>
+          </li>
+          <li class="pick">
+            <span class="pick-idx">A&middot;04</span>
+            <div>
+              <div class="pick-name">Hot vs. cold vs. bokashi</div>
+              <p class="pick-why">Three different processes wearing the same hat — speed, sanitation, and smell compared honestly, including when each is the wrong choice. <a href="articles/04-hot-vs-cold-vs-bokashi.html">Read &rarr;</a></p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <div class="shopbar reveal">
+        <a href="shop.html">Shop the gear &rarr;</a>
+        <p class="shopbar-note">Every product on one page: bins, worms, thermometers — each with its specs and the verdict that earned it a slot.</p>
+      </div>
+
+      <div class="cta-bleed reveal">
+        <img src="img/four-compost-bins.jpg" alt="" aria-hidden="true" width="1920" height="1080" loading="lazy">
+        <div class="cta-inner">
+          <p class="cta-text">Watch the process, buy the instruments.</p>
+          <div>
+            <a class="btn" href="shop.html">Browse gear</a>
+            &nbsp;&nbsp;
+            <a class="btn btn-ghost" href="https://www.youtube.com/@worldcomposting" target="_blank" rel="noopener">YouTube: @worldcomposting</a>
+          </div>
         </div>
+      </div>
 
-        <div class="pillar-grid-wide">
-            <div class="pillar-card-wide">
-                <h3>🌱 Compost Culture Basics</h3>
-                <p>A beginner-friendly guide to understanding compost cultures, the microorganisms that drive decomposition, and how to build a thriving compost ecosystem.</p>
-                <a href="/articles/01-introduction-to-compost-culture.html" class="read-more">Read article →</a>
-            </div>
-            <div class="pillar-card-wide">
-                <h3>&#129528; Microbial Succession</h3>
-                <p>Understanding the succession of microorganisms through composting phases &mdash; from mesophilic bacteria to thermophilic actinomycetes and fungal colonizers.</p>
-                <a href="/articles/02-microbial-succession-in-composting.html" class="read-more">Read article &rarr;</a>
-            </div>
-            <div class="pillar-card-wide">
-                <h3>&#127777;&#65039; Thermometer Showdown</h3>
-                <p>Six compost thermometers from $15 to $60 compared on the specs that actually matter: hermetic sealing, stem gauge, and calibration. Which one fits your pile size.</p>
-                <a href="/articles/03-compost-thermometer-showdown.html" class="read-more">Read article &rarr;</a>
-            </div>
-            <div class="pillar-card-wide">
-                <h3>&#9878;&#65039; Hot vs Cold vs Bokashi</h3>
-                <p>The three main home composting methods compared on the numbers that decide which one fits your life: timeline to finished product, pathogen kill, nitrogen retention, and effort per batch.</p>
-                <a href="/articles/04-hot-vs-cold-vs-bokashi.html" class="read-more">Read article &rarr;</a>
-            </div>
+      <footer class="site-foot">
+        <div class="wordmark" aria-hidden="true">compostculture</div>
+        <p class="foot-disc"><strong>Affiliate disclosure:</strong> Compost Culture is reader-supported. Some links on this site are affiliate links (Amazon for gear, Hungry Worms for live worms) — if you buy through them we may earn a commission at no extra cost to you. Recommendations reflect specs, published data, and long-term user reports; commissions never change a verdict. <a href="about.html#disclosure">Full disclosure</a> · <a href="privacy.html">Privacy</a></p>
+        <div class="foot-row">
+          <span>&copy; 2026 Compost Culture · Built with real data, not opinions.</span>
+          <span><a href="about.html">About</a> · <a href="privacy.html">Privacy</a> · <a href="credits.html">Photo credits</a> · <a href="about.html#disclosure">Affiliate disclosure</a></span>
         </div>
-
-        <footer style="text-align: center; padding: 2rem; opacity: 0.6; font-size: 0.85rem;">
-            Compost Culture — Evidence-based composting research.<br>
-            Built with real data, not opinions.
-        </footer>
-    </div>
+      </footer>
+    </main>
+  </div>
 </body>
 </html>

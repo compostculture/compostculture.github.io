@@ -1,51 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Not Found | Compost Culture Lab</title>
-    <meta name="description" content="This page does not exist. Browse the composting research articles on Compost Culture Lab instead.">
-    <meta name="robots" content="noindex, follow">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/src/styles/theme.css">
-    <style>
-        .nf-wrap { max-width: 720px; margin: 3rem auto; padding: 0 1.5rem; text-align: center; }
-        .nf-code { font-family: 'Lora', serif; font-size: 6rem; color: var(--forest-green); line-height: 1; }
-        .nf-wrap h1 { font-family: 'Lora', serif; color: var(--ocean-blue); margin: 0.5rem 0 1rem; }
-        .nf-wrap p { opacity: 0.85; line-height: 1.7; margin-bottom: 2rem; }
-        .nf-list { text-align: left; background: white; border-radius: 16px; box-shadow: var(--card-shadow); padding: 1.5rem 2rem; margin-bottom: 2rem; }
-        .nf-list h2 { font-family: 'Lora', serif; color: var(--forest-green); margin-top: 0; font-size: 1.2rem; }
-        .nf-list li { margin: 0.6rem 0; line-height: 1.5; }
-        .nf-list a { color: var(--ocean-blue); text-decoration: none; font-weight: 600; }
-        .nf-home { display: inline-block; background: var(--forest-green); color: white; padding: 0.7rem 1.8rem; border-radius: 8px; text-decoration: none; font-weight: 600; }
-    </style>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-01P1FVHJ9V"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-01P1FVHJ9V');
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — Page not found — Compost Culture</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <script src="config/site.js"></script>
+  <script src="config/affiliate.js"></script>
+  <script src="js/site.js"></script>
 </head>
 <body>
-    <div class="nf-wrap">
-        <div class="nf-code">404</div>
-        <h1>This page has not been composted yet.</h1>
-        <p>The address you followed does not exist on this site. It may have moved, or the link was mistyped. Here is everything we currently publish:</p>
+  <a class="skip" href="#main">Skip to content</a>
 
-        <div class="nf-list">
-            <h2>All articles</h2>
-            <ul style="padding-left: 1.2rem;">
-                <li><a href="/articles/01-introduction-to-compost-culture.html">Introduction to Compost Culture</a></li>
-                <li><a href="/articles/02-microbial-succession-in-composting.html">Microbial Succession in Composting</a></li>
-                <li><a href="/articles/03-compost-thermometer-showdown.html">Compost Thermometer Showdown: $15 vs $60 Probes Compared</a></li>
-                <li><a href="/articles/04-hot-vs-cold-vs-bokashi.html">Hot vs Cold vs Bokashi: Which Composting Method Actually Wins?</a></li>
-            </ul>
+  <header class="nav">
+    <a class="nav-logo" href="index.html">compost<span class="dot">culture</span></a>
+    <button class="nav-burger" aria-label="Menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </button>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="shop.html">Shop</a>
+      <a href="best-worm-bins.html">Worm Bins</a>
+      <a href="best-compost-bins.html">Compost Bins</a>
+      <a href="articles/01-introduction-to-compost-culture.html">Articles</a>
+      <a href="about.html">About</a>
+      <a class="nav-cta" href="shop.html">Shop the gear</a>
+    </nav>
+  </header>
+
+  <div class="stage">
+    <figure class="stage-photo">
+      <img src="img/red-wiggler-copulation.jpg" alt="Two red wiggler worms on dark compost, one on the empty side of a bin" width="1920" height="1280" fetchpriority="high">
+      <figcaption>Even the worms know this page doesn't exist. <a href="https://commons.wikimedia.org/wiki/File:Redwiggler-copulation-compost.jpg" target="_blank" rel="noopener">Fubar Obfusco, CC BY-SA 4.0</a></figcaption>
+    </figure>
+
+    <main class="stage-body" id="main">
+      <header class="intro">
+        <span class="label">404</span>
+        <h1>Nothing to decompose here.</h1>
+        <p class="dek">This URL has been fully broken down — the page it pointed to no longer exists at this address. The index below goes to live pages.</p>
+      </header>
+
+      <section class="section" aria-labelledby="h-go">
+        <h2 id="h-go">Where to go</h2>
+        <ol class="picks">
+          <li class="pick">
+            <span class="pick-idx">&rarr;</span>
+            <div>
+              <div class="pick-name">The home page</div>
+              <p class="pick-why">Everything the site is, in one scroll.</p>
+            </div>
+            <a class="pick-link" href="index.html">Go home</a>
+          </li>
+          <li class="pick">
+            <span class="pick-idx">&rarr;</span>
+            <div>
+              <div class="pick-name">The shop</div>
+              <p class="pick-why">Every product we've evaluated, on one page.</p>
+            </div>
+            <a class="pick-link" href="shop.html">Shop the gear</a>
+          </li>
+          <li class="pick">
+            <span class="pick-idx">&rarr;</span>
+            <div>
+              <div class="pick-name">The articles</div>
+              <p class="pick-why">The science: introduction, microbial succession, hot vs. cold vs. bokashi.</p>
+            </div>
+            <a class="pick-link" href="articles/01-introduction-to-compost-culture.html">Read the science</a>
+          </li>
+        </ol>
+      </section>
+
+      <footer class="site-foot">
+        <div class="wordmark" aria-hidden="true">compostculture</div>
+        <div class="foot-row">
+          <span>&copy; 2026 Compost Culture · Built with real data, not opinions.</span>
+          <span><a href="about.html">About</a> · <a href="privacy.html">Privacy</a> · <a href="credits.html">Photo credits</a></span>
         </div>
-
-        <a class="nf-home" href="/">Back to the homepage</a>
-    </div>
+      </footer>
+    </main>
+  </div>
 </body>
 </html>
