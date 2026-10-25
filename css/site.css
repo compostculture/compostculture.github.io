@@ -197,6 +197,15 @@ code {
   }
 }
 
+/* Shop page: the split stage is full-height on editorial pages, but the
+   gear page sells — cap the photo at 52vh so the first product section
+   reaches above the fold without losing the sticky-photo signature. */
+.stage--shop { min-height: 0; }
+.stage--shop .stage-photo { height: 52vh; min-height: 340px; }
+@media (max-width: 920px) {
+  .stage--shop .stage-photo { height: 42vh; min-height: 260px; }
+}
+
 /* ---------- intro ---------- */
 .intro { max-width: var(--col-intro); }
 .intro h1 { margin: 0.9rem 0 1.2rem; }
