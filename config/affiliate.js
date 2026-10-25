@@ -62,7 +62,7 @@ window.CC_AFFILIATE = {
     },
     "worm-factory-360": {
       name: "Worm Factory 360 2-Tray",
-      url: "https://www.amazon.com/dp/B002LH47PY"
+      url: "https://link.amazon/B02lvq2fP"
     },
     "worm-bucket": {
       name: "Worm Bucket",
@@ -80,7 +80,7 @@ window.CC_AFFILIATE = {
     },
     "mg-55gal": {
       name: "Miracle-Gro 55.4-Gallon Compost Bin",
-      url: "https://www.amazon.com/dp/B077XM69VN"
+      url: "https://link.amazon/B029tghMq"
     },
     "redmon-65gal": {
       name: "Redmon 65-Gallon Compost Tumbler",
