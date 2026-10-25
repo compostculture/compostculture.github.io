@@ -99,16 +99,26 @@ window.CC_AFFILIATE = {
       url: "https://link.amazon/B0bqMumWe"
     },
 
-    /* ---------- live worms ---------- */
-    "unclejims-250": {
-      name: "Uncle Jim's 250-Count Composting Red Wigglers",
-      url: "https://www.amazon.com/dp/B00EZPSSGY"
-    },
+    /* ---------- live worms (Hungry Worms partner store) ---------- */
     /* Non-Amazon affiliate — Hungry Worms (live worm farm, Franklin ID).
-       Tracking is in the URL path itself; no tag param, no search fallback. */
-    "redwigglers-18lb": {
-      name: "Red Wigglers (live) — Hungry Worms",
+       Tracking is in the URL path itself; no tag param, no search fallback.
+       "12lb" = the store's 1/2 lb pack listing. Nightcrawler partner URLs
+       are live (xmgjgj = African, g1nwsl = European), wired 2026-10-24. */
+    "redwigglers-12lb": {
+      name: "Red Wigglers, 1/2 lb (live) — Hungry Worms",
       url: "https://hungryworms.com/bkpbaj",
+      network: "hungryworms",
+      tag: false
+    },
+    "african-nightcrawlers": {
+      name: "African Nightcrawlers (live) — Hungry Worms",
+      url: "https://hungryworms.com/xmgjgj",
+      network: "hungryworms",
+      tag: false
+    },
+    "european-nightcrawlers": {
+      name: "European Nightcrawlers (live) — Hungry Worms",
+      url: "https://hungryworms.com/g1nwsl",
       network: "hungryworms",
       tag: false
     },
@@ -121,6 +131,74 @@ window.CC_AFFILIATE = {
     "jupiterforce-80gal": {
       name: "JupiterForce 80-Gallon Garden Compost Bin",
       url: "https://link.amazon/B09ekhSWl"
+    },
+
+    /* ---------- bokashi (bokashi.html) ---------- */
+    "scd-single-kit": {
+      name: "SCD Probiotics All Seasons Single Starter Kit (5-gallon bin)",
+      url: "https://www.amazon.com/dp/B003ANMBKQ"
+    },
+    "scd-2bin-kit": {
+      name: "SCD Probiotics All Seasons 2-Bin Kit + 5 lb bran",
+      url: "https://www.amazon.com/dp/B096T53RZH"
+    },
+    "scd-bran-2lb": {
+      name: "SCD Probiotics All Seasons 2 lb dry bokashi bran",
+      url: "https://www.amazon.com/dp/B000UPQGAI"
+    },
+
+    /* ---------- biochar (biochar.html) ---------- */
+    "charbliss-16qt": {
+      name: "Char Bliss Organic Biochar, 16 qt (OMRI Listed)",
+      url: "https://www.amazon.com/dp/B0CMR3N15B"
+    },
+    "foop-biochar-64oz": {
+      name: "FOOP Organic Inoculated Biochar, 64 oz bag",
+      url: "https://www.amazon.com/dp/B0CZ7N3DPX"
+    },
+    "foop-biochar-5gal": {
+      name: "FOOP Organic Inoculated Biochar, 5-gal pail (15 lb)",
+      url: "https://www.amazon.com/dp/B0CZ7MF243"
+    },
+    "humichar-12lb": {
+      name: "The Andersons HumiChar Biochar + Humic Acid, 12 lb",
+      url: "https://www.amazon.com/dp/B08ZBGQNJ7"
+    },
+    "humichar-40lb": {
+      name: "The Andersons HumiChar Biochar, 40 lb",
+      url: "https://www.amazon.com/dp/B0843NQR9J"
+    },
+
+    /* ---------- countertop electric composters (kitchen-composters.html) ---------- */
+    "reencle-prime-14l": {
+      name: "Reencle Prime 14L Countertop Composter",
+      url: "https://www.amazon.com/dp/B0CVNN4FC3"
+    },
+    "lomi-1-bundle": {
+      name: "Lomi 1 3L Countertop Composter (45-cycle bundle)",
+      url: "https://www.amazon.com/dp/B0B3FSQTRS"
+    },
+    "growell-4l": {
+      name: "Growell 4L Electric Food Waste Composter",
+      url: "https://www.amazon.com/dp/B0DRJGFC26"
+    },
+    "ouaken-4l": {
+      name: "Ouaken 4L Electric Food Waste Composter",
+      url: "https://www.amazon.com/dp/B0DJVJRP13"
+    },
+    "geme-pro-19l": {
+      name: "GEME Pro 19L Countertop Composter",
+      url: "https://www.amazon.com/dp/B0BV31KTCN"
+    },
+
+    /* ---------- compost tools (compost-tools.html) ---------- */
+    "ejwox-aerator": {
+      name: "EJWOX Compost Aerator (stainless corkscrew)",
+      url: "https://www.amazon.com/dp/B0C48RHQHN"
+    },
+    "yardbutler-ica36": {
+      name: "Yard Butler Compost Aerator ICA-36",
+      url: "https://www.amazon.com/dp/B00EOMCJHC"
     }
   }
 };

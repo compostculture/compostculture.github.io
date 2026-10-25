@@ -1,0 +1,138 @@
+{
+  "note": "Photo/video credits for compostculture.com. Sourced via Wikimedia Commons, looked at each file before use. Re-verified 2026-10-23 against on-disk files (dimensions + byte size); 4 hub stage photos added the same day; the public record is credits.html.",
+  "assets": [
+    {
+      "file": "img/hero-flipping-hot-pile.jpg",
+      "page": "home (sticky photo, left)",
+      "title": "Flipping hot compost pile 811",
+      "author": "SB Johnny",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Flipping_hot_compost_pile_811.JPG",
+      "credit_line": "“Flipping hot compost pile 811” by SB Johnny, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "file": "img/worm-bin-portrait.jpg",
+      "page": "best-worm-bins (sticky photo, left)",
+      "title": "Compost bin with compost (2019-12-14)",
+      "author": "Niwrat",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Compost_bin_with_compost.jpg",
+      "credit_line": "“Compost bin with compost” by Niwrat, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "file": "img/red-wiggler-copulation.jpg",
+      "page": "article 02 Microbial Succession (stage) + 404 (stage)",
+      "title": "Redwiggler-copulation-compost",
+      "author": "Fubar Obfusco",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Redwiggler-copulation-compost.jpg",
+      "credit_line": "“Redwiggler-copulation-compost” by Fubar Obfusco, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "file": "img/worm-baby.jpg",
+      "page": "article 01 Introduction (stage)",
+      "title": "Little worm baby red wiggler",
+      "author": "Zenyrgarden",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Little_worm_baby_red_wiggler.jpg",
+      "credit_line": "“Little worm baby red wiggler” by Zenyrgarden, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "file": "img/tumbler-brighthelm.jpg",
+      "page": "shop.html (stage) + best-compost-bins (stage) + credits.html (stage)",
+      "title": "Compost tumbler in Brighthelm Garden 2023-06-24",
+      "author": "Andy Li",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Compost_tumbler_in_Brighthelm_Garden_2023-06-24.jpg",
+      "credit_line": "“Compost tumbler in Brighthelm Garden” by Andy Li, CC0, via Wikimedia Commons"
+    },
+    {
+      "file": "img/four-compost-bins.jpg",
+      "page": "index (in-body) + best-compost-bins (in-body) + privacy.html (stage)",
+      "title": "Four compost bins (2024-10-30)",
+      "author": "Hu Nhu",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Four_compost_bins.jpg",
+      "credit_line": "“Four compost bins” by Hu Nhu, CC0, via Wikimedia Commons"
+    },
+    {
+      "file": "img/thermometer-leaf-pile.jpg",
+      "page": "article 03 thermometer showdown (sticky photo, left)",
+      "title": "Compost thermometer",
+      "author": "UnifiedFunctionality",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Compost_thermometer.jpg",
+      "credit_line": "“Compost thermometer” by UnifiedFunctionality, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "file": "img/thermometer-straw.jpg",
+      "page": "about.html (stage)",
+      "title": "Measuring temperature in compost pile (covered with straw)",
+      "author": "SuSanA Secretariat",
+      "licence": "CC BY 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Measuring_temperature_in_compost_pile_(covered_with_straw)_(6879864493).jpg",
+      "credit_line": "“Measuring temperature in compost pile” by SuSanA Secretariat, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "file": "img/steaming-compost.webm",
+      "page": "index (video) + article 04 Hot vs Cold vs Bokashi (in-body video)",
+      "poster_page": "article 04 (stage poster, same file/license)",
+      "poster": "img/steaming-compost-poster.jpg",
+      "title": "Steaming compost in Nymans Garden (2023-03-26)",
+      "author": "Andy Li",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Steaming_compost_in_Nymans_Garden.webm",
+      "credit_line": "“Steaming compost in Nymans Garden” by Andy Li, CC0, via Wikimedia Commons",
+      "size_note": "480p VP9 webm, 14s, 2.1 MB"
+    },
+    {
+      "file": "img/bokashi-bucket.jpg",
+      "page": "bokashi.html (stage)",
+      "title": "Bokashi composting bucket content",
+      "author": "Zenyrgarden",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bokashi_composting_bucket_content.jpg",
+      "credit_line": "“Bokashi composting bucket content” by Zenyrgarden, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "file": "img/biochar-inoculated.jpg",
+      "page": "biochar.html (stage)",
+      "title": "Charged and inoculated biochar ready for soil application",
+      "author": "Tim Brunauer (GIZ)",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Charged_and_inoculated_biochar_ready_for_soil_application.jpg",
+      "credit_line": "“Charged and inoculated biochar ready for soil application” by Tim Brunauer (GIZ), CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "file": "img/kitchen-food-waste.jpg",
+      "page": "kitchen-composters.html (stage)",
+      "title": "Kitchen food waste, vegetable peelings & coffee grounds in biodegradable bag",
+      "author": "Tek monde",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kitchen_food_waste,_vegetable_peelings_%26_coffee_grounds_in_biodegradable_bag.jpg",
+      "credit_line": "“Kitchen food waste, vegetable peelings & coffee grounds” by Tek monde, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "file": "img/garden-fork.jpg",
+      "page": "compost-tools.html (stage)",
+      "title": "Garden fork",
+      "author": "The Banner",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Garden_fork.JPG",
+      "credit_line": "“Garden fork” by The Banner, CC BY-SA 4.0, via Wikimedia Commons"
+    }
+  ]
+}
