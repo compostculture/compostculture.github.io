@@ -136,69 +136,81 @@ window.CC_AFFILIATE = {
     /* ---------- bokashi (bokashi.html) ---------- */
     "scd-single-kit": {
       name: "SCD Probiotics All Seasons Single Starter Kit (5-gallon bin)",
-      url: "https://www.amazon.com/dp/B003ANMBKQ"
+      url: "https://link.amazon/B04q9sAkO"
     },
     "scd-2bin-kit": {
       name: "SCD Probiotics All Seasons 2-Bin Kit + 5 lb bran",
-      url: "https://www.amazon.com/dp/B096T53RZH"
+      url: "https://link.amazon/B04Vi6IOR"
     },
     "scd-bran-2lb": {
       name: "SCD Probiotics All Seasons 2 lb dry bokashi bran",
-      url: "https://www.amazon.com/dp/B000UPQGAI"
+      url: "https://link.amazon/B0e4Mzizg"
     },
 
     /* ---------- biochar (biochar.html) ---------- */
     "charbliss-16qt": {
       name: "Char Bliss Organic Biochar, 16 qt (OMRI Listed)",
-      url: "https://www.amazon.com/dp/B0CMR3N15B"
+      url: "https://link.amazon/B05HoGiHz"
     },
     "foop-biochar-64oz": {
       name: "FOOP Organic Inoculated Biochar, 64 oz bag",
-      url: "https://www.amazon.com/dp/B0CZ7N3DPX"
+      url: "https://link.amazon/B0gi2slme"
     },
     "foop-biochar-5gal": {
       name: "FOOP Organic Inoculated Biochar, 5-gal pail (15 lb)",
-      url: "https://www.amazon.com/dp/B0CZ7MF243"
+      url: "https://link.amazon/B06xyFAIW"
     },
     "humichar-12lb": {
       name: "The Andersons HumiChar Biochar + Humic Acid, 12 lb",
-      url: "https://www.amazon.com/dp/B08ZBGQNJ7"
+      url: "https://link.amazon/B0fBIpDIp"
     },
     "humichar-40lb": {
       name: "The Andersons HumiChar Biochar, 40 lb",
-      url: "https://www.amazon.com/dp/B0843NQR9J"
+      url: "https://link.amazon/B004EPyvG"
     },
 
     /* ---------- countertop electric composters (kitchen-composters.html) ---------- */
     "reencle-prime-14l": {
       name: "Reencle Prime 14L Countertop Composter",
-      url: "https://www.amazon.com/dp/B0CVNN4FC3"
+      url: "https://link.amazon/B01V2VIQ3"
     },
     "lomi-1-bundle": {
       name: "Lomi 1 3L Countertop Composter (45-cycle bundle)",
-      url: "https://www.amazon.com/dp/B0B3FSQTRS"
+      url: "https://link.amazon/B0h4cCtBG"
     },
     "growell-4l": {
       name: "Growell 4L Electric Food Waste Composter",
-      url: "https://www.amazon.com/dp/B0DRJGFC26"
+      url: "https://link.amazon/B0i6K6JHI"
     },
     "ouaken-4l": {
       name: "Ouaken 4L Electric Food Waste Composter",
-      url: "https://www.amazon.com/dp/B0DJVJRP13"
+      url: "https://link.amazon/B0fVWcwdy"
+    },
+    /* ---------- GEME partner store (non-Amazon affiliate, wired 2026-10-26) ----------
+       GEME Bio brand-partner program: the tracking code is in the URL path,
+       there is NO tag param — set tag: false so the Amazon tag is never added.
+       These replace the Amazon listings for both GEME machines. */
+    "geme-terra-2": {
+      name: "GEME Terra 2 14L Electric Bio-Composter",
+      url: "https://gemebio.com/Pia8j4",
+      network: "gemebio",
+      tag: false
     },
     "geme-pro-19l": {
-      name: "GEME Pro 19L Countertop Composter",
-      url: "https://www.amazon.com/dp/B0BV31KTCN"
+      name: "GEME Pro 19L Electric Bio-Composter",
+      url: "https://gemebio.com/esEn5r",
+      network: "gemebio",
+      tag: false
     },
 
     /* ---------- compost tools (compost-tools.html) ---------- */
     "ejwox-aerator": {
       name: "EJWOX Compost Aerator (stainless corkscrew)",
-      url: "https://www.amazon.com/dp/B0C48RHQHN"
+      url: "https://link.amazon/B07t8tESC"
     },
     "yardbutler-ica36": {
       name: "Yard Butler Compost Aerator ICA-36",
-      url: "https://www.amazon.com/dp/B00EOMCJHC"
+      url: "https://link.amazon/B07DtYabz"
     }
   }
 };
