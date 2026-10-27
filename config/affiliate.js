@@ -208,14 +208,12 @@ window.CC_AFFILIATE = {
       name: "EJWOX Compost Aerator (stainless corkscrew)",
       url: "https://link.amazon/B07t8tESC"
     },
-    // Compost tea page: NEW — no exact product pinned yet. site.js falls back
-    // to a tagged Amazon search link for this key. Newell to create the
-    // dashboard shortlink for a specific aquarium air pump + airstone and
-    // replace this empty url. (see affiliate-links.md)
+    // Compost tea page: FishKeeper air pump + airstone (ASIN B0GTD9MRY3),
+    // wired 2026-10-26 from Newell's dashboard shortlink (tag embedded).
     "aquarium-air-pump": {
-      name: "Aquarium air pump with airstone (5-gal bucket)",
-      url: "",
-      search: "aquarium air pump with air stone"
+      name: "FishKeeper Aquarium Air Pump + Oxygen Stone (airstone), 5-gal bucket size",
+      url: "https://link.amazon/B0bvBEp53",
+      search: "aquarium air pump with air stone",
     },
     "yardbutler-ica36": {
       name: "Yard Butler Compost Aerator ICA-36",
