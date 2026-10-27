@@ -24,6 +24,7 @@
     Array.prototype.forEach.call(links, function (a) {
       var key = a.getAttribute("data-amz");
       var p = aff.products[key];
+      var usedFallback = false;
       if (!p) {
         console.warn("[cc] unknown affiliate key:", key);
         a.classList.add("amz-dead");
@@ -36,6 +37,7 @@
         /* no exact URL yet — degrade to a search link and say so */
         if (p.search) {
           url = "https://www.amazon.com/s?k=" + p.search + "&tag=" + aff.tag;
+          usedFallback = true;
           var note = a.querySelector(".aff-note");
           if (!note) {
             note = document.createElement("span");
@@ -57,6 +59,24 @@
       if (rel.indexOf("sponsored") === -1) rel.push("sponsored");
       if (rel.indexOf("noopener") === -1) rel.push("noopener");
       a.setAttribute("rel", rel.join(" "));
+      /* affiliate-click event for revenue attribution (GA4, fires on real clicks only) */
+      a.addEventListener("click", function () {
+        fireAffiliateEvent(key, p, usedFallback);
+      });
+    });
+  }
+
+  /* ---------- 1b. GA4 affiliate-click events ---------- */
+  function fireAffiliateEvent(key, p, usedFallback) {
+    var id = (window.CC_SITE && window.CC_SITE.ga4) || "";
+    if (!id || id.indexOf("G-") !== 0 || /X{3,}/.test(id)) return;
+    if (typeof window.gtag !== "function") return;
+    window.gtag("event", "affiliate_click", {
+      product_key: key,
+      product_name: p.name || key,
+      network: p.network || "amazon",
+      search_fallback: !!usedFallback,
+      page: location.pathname
     });
   }
 
