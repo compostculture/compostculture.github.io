@@ -146,6 +146,15 @@ window.CC_AFFILIATE = {
       name: "SCD Probiotics All Seasons 2 lb dry bokashi bran",
       url: "https://link.amazon/B0e4Mzizg"
     },
+    /* TeraGanix Organko (best-bokashi-kits.html) — plain dp URLs, tag appended. */
+    "teraganix-organko": {
+      name: "TeraGanix Bokashi Compost Starter Kit, Essential Bucket + Base (4 gal)",
+      url: "https://www.amazon.com/dp/B0B6GSN1ZP"
+    },
+    "teraganix-organko-2bin": {
+      name: "TeraGanix Bokashi Compost Starter Kit, Essential Set (2×4 gal bins)",
+      url: "https://www.amazon.com/dp/B0B6GTYTJ8"
+    },
 
     /* ---------- biochar (biochar.html) ---------- */
     "charbliss-16qt": {
@@ -218,6 +227,21 @@ window.CC_AFFILIATE = {
     "yardbutler-ica36": {
       name: "Yard Butler Compost Aerator ICA-36",
       url: "https://link.amazon/B07DtYabz"
+    },
+
+    /* ---------- compost turners (best-compost-turners.html) ---------- */
+    /* Plain dp URLs — ?tag=worldcomposti-20 appended at render. */
+    "cultivator-3tine": {
+      name: "3-Tine Long Handle Tiller Garden Cultivator",
+      url: "https://www.amazon.com/dp/B0CSDN3B5H"
+    },
+    "fork-45in-4tine": {
+      name: "45-Inch 4-Tine Spading/Compost Fork (wood handle)",
+      url: "https://www.amazon.com/dp/B0B45HCHY3"
+    },
+    "truper-manure-fork-54": {
+      name: "Truper Tru Pro 54-Inch 3-Tine Manure Fork",
+      url: "https://www.amazon.com/dp/B002UVV9G6"
     }
   }
 };
