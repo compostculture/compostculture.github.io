@@ -80,7 +80,14 @@
     });
   }
 
-  /* ---------- 2. nav toggle ---------- */
+  /* ---------- 2. nav toggle + dropdowns ---------- */
+  function closeDrops(drops) {
+    Array.prototype.forEach.call(drops, function (d) {
+      d.classList.remove("open");
+      var b = d.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+  }
   function wireNav() {
     var burger = document.querySelector(".nav-burger");
     var links = document.querySelector(".nav-links");
@@ -91,6 +98,29 @@
     });
     links.addEventListener("click", function (e) {
       if (e.target.tagName === "A") links.classList.remove("open");
+    });
+    /* dropdowns: hover handled in CSS; click/keyboard handled here */
+    var drops = document.querySelectorAll(".nav-drop");
+    Array.prototype.forEach.call(drops, function (drop) {
+      var btn = drop.querySelector(".nav-drop-btn");
+      if (!btn) return;
+      btn.addEventListener("click", function (e) {
+        e.stopPropagation();
+        var wasOpen = drop.classList.contains("open");
+        closeDrops(drops);
+        if (!wasOpen) {
+          drop.classList.add("open");
+          btn.setAttribute("aria-expanded", "true");
+        }
+      });
+    });
+    document.addEventListener("click", function () { closeDrops(drops); });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") {
+        closeDrops(drops);
+        var b = document.activeElement;
+        if (b && b.classList && b.classList.contains("nav-drop-btn")) b.blur();
+      }
     });
   }
 
