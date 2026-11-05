@@ -242,6 +242,51 @@ window.CC_AFFILIATE = {
     "truper-manure-fork-54": {
       name: "Truper Tru Pro 54-Inch 3-Tine Manure Fork",
       url: "https://www.amazon.com/dp/B002UVV9G6"
+    },
+
+    /* ---------- countertop composter review (non-Amazon partners, wired 2026-10-28) ----------
+       Impact/CJ affiliate redirects (sjv.io / pxf.io) — the tracking is in the
+       redirect itself, there is NO tag param. tag: false so the Amazon tag is
+       never appended. FoodCycler is the review subject; The Mill is wired as
+       the runner-up cross-link on the same page. */
+    "foodcycler-eco": {
+      name: "FoodCycler Eco (Eco 3 / Eco 5) countertop food waste recycler",
+      url: "https://foodcyclesciencecorporation.sjv.io/dygDYQ",
+      network: "foodcycler",
+      tag: false
+    },
+    "mill-composter": {
+      name: "The Mill countertop food waste composter",
+      url: "https://mill.pxf.io/VOeWE6",
+      network: "mill",
+      tag: false
+    },
+
+    /* ---------- solar battery / portable power station roundup (non-Amazon partners, wired 2026-10-28) ----------
+       Impact/CJ affiliate redirects — tag: false, no Amazon tag. */
+    "udpower-pps": {
+      name: "UDPOWER portable power station (S-Series / C-Series)",
+      url: "https://shenzhenyoudianenergy.sjv.io/enXQmg",
+      network: "udpower",
+      tag: false
+    },
+    "jackery-pps": {
+      name: "Jackery portable power station / solar generator",
+      url: "https://jackery.sjv.io/bkeR6v",
+      network: "jackery",
+      tag: false
+    },
+    "bluetti-pps": {
+      name: "BLUETTI portable power station (LiFePO4)",
+      url: "https://bluettius.sjv.io/7XqG9d",
+      network: "bluetti",
+      tag: false
+    },
+    "renogy-pps": {
+      name: "Renogy portable power station / solar kit",
+      url: "https://renogy.sjv.io/DWGq4q",
+      network: "renogy",
+      tag: false
     }
   }
 };
