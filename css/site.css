@@ -545,6 +545,22 @@ table caption.tbl-cap {
 @media (max-width: 640px) {
   .foot-grid { grid-template-columns: 1fr 1fr; gap: 1.5rem 1.2rem; }
 }
+/* mobile tables: horizontal scroll + sticky first column */
+@media (max-width: 640px) {
+  .tbl-wrap .data-table,
+  .table-wrap .data-table { min-width: 540px; }
+  .tbl-wrap .data-table thead th:first-child,
+  .table-wrap .data-table thead th:first-child {
+    position: sticky; left: 0; z-index: 2;
+  }
+  .tbl-wrap .data-table tbody td:first-child,
+  .table-wrap .data-table tbody td:first-child {
+    position: sticky; left: 0; z-index: 1;
+    background: var(--ground);
+    box-shadow: inset -1px 0 0 var(--hair-strong);
+  }
+}
+
 
 /* ---------- photo credit (generic) ---------- */
 .credit {
