@@ -218,8 +218,10 @@ code {
   padding-top: var(--nav-h);
 }
 .stage-photo {
-  position: sticky; top: var(--nav-h);
+  position: relative;
   height: calc(100vh - var(--nav-h));
+  /* 2026-11-06: in-flow (was sticky) — a sticky hero pinned for the full stage height on tall
+     stages (e.g. Terra 2 review), so full-width sections scrolled under the image. */
   overflow: hidden;
   border-right: 1px solid var(--hair);
 }
