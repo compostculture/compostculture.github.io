@@ -53,7 +53,7 @@ window.CC_AFFILIATE = {
       url: "https://link.amazon/B0fgniome"
     },
     "urban-worm-bag": {
-      name: "Urban Worm Bag v2 10-Gallon",
+      name: "Urban Worm Bag v2",
       url: "https://link.amazon/B0cxqzFf1"
     },
     "worm-nerd-wn55": {
@@ -61,7 +61,7 @@ window.CC_AFFILIATE = {
       url: "https://link.amazon/B087k5vjq"
     },
     "worm-factory-360": {
-      name: "Worm Factory 360 2-Tray",
+      name: "Worm Factory 360 (4-Tray)",
       url: "https://link.amazon/B02lvq2fP"
     },
     "worm-bucket": {
