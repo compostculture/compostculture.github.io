@@ -354,6 +354,20 @@ table caption.tbl-cap {
   font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase;
   color: var(--ink-mut); margin-bottom: 0.4rem;
 }
+/* pick boxes (money pages) + CTA + table legend */
+.slip--pick {
+  border-top: 2px solid var(--hair-strong);
+  margin-top: 1.6rem;
+}
+.slip-cta { margin: 1.2rem 0 0; }
+.btn {
+  display: inline-block; border: 1px solid var(--hair-strong);
+  padding: 0.6rem 1.1rem; font-size: 0.8rem; letter-spacing: 0.05em;
+  text-transform: uppercase; color: var(--ink-bright);
+}
+.btn:hover { background: var(--ground-raise); }
+.tbl-legend { margin-top: 0.8rem; font-size: 0.78rem; color: var(--ink-mut); line-height: 1.5; }
+
 .slip-title {
   font-family: var(--font-display);
   font-size: 1.35rem; font-weight: 700; color: var(--ink-bright);
