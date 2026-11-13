@@ -426,6 +426,12 @@ table caption.tbl-cap {
   transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
 .pick-link:hover { background: var(--ink); color: var(--on-ink) !important; border-color: var(--ink); }
+/* affiliate CTA variant: filled button so product links read as the page's action */
+.pick-link.amz {
+  background: var(--ink); color: var(--on-ink) !important;
+  border-color: var(--ink);
+}
+.pick-link.amz:hover { background: var(--ink-bright); border-color: var(--ink-bright); }
 .pick-link .aff-note { font-weight: 400; font-size: 0.75rem; opacity: 0.85; display: block; letter-spacing: 0.04em; }
 .amz .aff-note { font-weight: 400; font-size: 0.75em; opacity: 0.75; margin-left: 0.4em; letter-spacing: 0.04em; white-space: nowrap; }
 @media (max-width: 640px) {
