@@ -213,15 +213,19 @@ code {
    ============================================================ */
 .stage {
   display: grid;
-  grid-template-columns: var(--stage-photo) 1fr;
+  grid-template-columns: minmax(0, var(--stage-photo)) minmax(0, 1fr);
   min-height: 100vh;
   padding-top: var(--nav-h);
 }
 .stage-photo {
-  position: relative;
+  position: sticky;
+  top: var(--nav-h);
+  z-index: 1;
   height: calc(100vh - var(--nav-h));
-  /* 2026-11-06: in-flow (was sticky) — a sticky hero pinned for the full stage height on tall
-     stages (e.g. Terra 2 review), so full-width sections scrolled under the image. */
+  /* 2026-11-13: sticky re-enabled — safe because every stage-page block lives inside
+     stage-body (pick slips moved in 11-13), so nothing escapes the right column to scroll
+     under the photo. (Nov 6 reverted sticky for exactly that reason.) If a future page puts
+     a full-width band OUTSIDE the stage grid, sticky pins over it — keep page content in main. */
   overflow: hidden;
   border-right: 1px solid var(--hair);
 }
@@ -298,6 +302,8 @@ code {
 /* ---------- data table ---------- */
 .data-table {
   width: 100%; border-collapse: collapse;
+  table-layout: fixed; /* 2026-11-13: auto layout let intrinsic cell content push tables past
+                          the stage body column (~130px overflow). Fixed keeps them column-fit. */
   margin: 1.6rem 0 2rem;
   font-size: 0.92rem;
   border: 1px solid var(--hair);
@@ -464,8 +470,10 @@ table caption.tbl-cap {
 
 /* ---------- shop bar (giant) ---------- */
 .shopbar {
-  margin: 4.5rem calc(-1 * var(--gutter)) 0;
-  width: calc(100% + 2 * var(--gutter));
+  /* 2026-11-13: bleed was 100%+2*gutter on both sides; inside the stage grid that overshot
+     the viewport by ~30-40px. Bleed left into the gutter, right flush to the column edge. */
+  margin: 4.5rem calc(-1 * var(--gutter)) 0 calc(-1 * var(--gutter));
+  width: calc(100% + var(--gutter));
   background: var(--ink);
   color: var(--on-ink);
   display: flex; align-items: center; justify-content: space-between;
@@ -488,8 +496,8 @@ table caption.tbl-cap {
 
 /* ---------- full-bleed CTA photo ---------- */
 .cta-bleed {
-  margin: 4rem calc(-1 * var(--gutter)) 0;
-  width: calc(100% + 2 * var(--gutter));
+  margin: 4rem calc(-1 * var(--gutter)) 0 calc(-1 * var(--gutter));
+  width: calc(100% + var(--gutter));
   position: relative;
 }
 .cta-bleed img { width: 100%; height: clamp(260px, 46vh, 460px); object-fit: cover; }
