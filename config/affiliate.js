@@ -70,6 +70,30 @@ window.CC_AFFILIATE = {
     },
 
     /* ---------- compost bins & tumblers (best-compost-bins) ---------- */
+    "hotfrog-dbc4000": {
+      name: "FCMP Outdoor HOTFROG Dual Body Tumbling Composter (HF-DBC4000), 37 gal",
+      url: "",
+      search: "FCMP HOTFROG dual body tumbling composter HF-DBC4000",
+      asin_hint: "B01IFN972U",
+    },
+    "vevor-crank-53gal": {
+      name: "VEVOR Compost Tumbler 53 Gallon Dual Chamber with Hand Crank (XDB-436C)",
+      url: "",
+      search: "VEVOR compost tumbler 53 gallon dual chamber hand crank",
+      asin_hint: "B0GDDJ3P8Z",
+    },
+    "rsi-maze-65gal": {
+      name: "RSI Maze Compost Tumbler 65 Gallon (MCT-MC) with 12-gal cart",
+      url: "",
+      search: "Maze compost tumbler 65 gallon MCT-MC",
+      asin_hint: "B07CCPPJR8",
+    },
+    "jora-jk270": {
+      name: "Jora Composter JK 270, 70 gal, galvanized steel dual chamber",
+      url: "",
+      search: "Jora JK 270 compost tumbler galvanized steel",
+      asin_hint: "B004U7LXHS",
+    },
     "fcmp-im4000": {
       name: "FCMP IM4000 IMAGINE Double Compost Tumbler",
       url: "https://link.amazon/B0gQ03cMA"
@@ -79,7 +103,7 @@ window.CC_AFFILIATE = {
       url: "https://link.amazon/B056D5U9j"
     },
     "mg-55gal": {
-      name: "Miracle-Gro 55.4-Gallon Compost Bin",
+      name: "Miracle-Gro Dual Chamber Compost Tumbler (2×18.5 gal / 70L)",
       url: "https://link.amazon/B029tghMq"
     },
     "redmon-65gal": {

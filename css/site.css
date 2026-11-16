@@ -334,6 +334,10 @@ code {
   font-size: 0.95rem; line-height: 1.65;
 }
 .callout h3 { margin-bottom: 0.5rem; }
+/* key-takeaways box (2026-11-15 article chrome) */
+.callout.takeaways { margin-top: 1.6rem; }
+.callout.takeaways ul { margin: 0.5rem 0 0; padding-left: 1.15rem; }
+.callout.takeaways li { margin-bottom: 0.45rem; }
 
 /* table caption + note (article/money-page tables) */
 table caption.tbl-cap {
