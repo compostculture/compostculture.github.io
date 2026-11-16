@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.compostculture.com/sitemap.xml
+Sitemap: https://compostculture.com/sitemap.xml
