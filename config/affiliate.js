@@ -47,6 +47,55 @@ window.CC_AFFILIATE = {
       url: "https://amzn.to/3VRHK1p"
     },
 
+    /* ---------- kitchen caddies (best-kitchen-compost-caddies) ---------- */
+    /* url: "" = live as tagged Amazon SEARCH with "exact product pending"
+       note until Newell pastes the tagged URL (aquarium-air-pump precedent). */
+    "epica-13gal": {
+      name: "Epica Kitchen Compost Bin 1.3 gal Stainless (B00AMNCYNQ)",
+      url: "",
+      search: "Epica kitchen compost bin countertop 1.3 gallon stainless steel",
+    },
+    "utopia-13gal": {
+      name: "Utopia Kitchen Countertop Compost Bin 1.3 gal Stainless (B015DRQ36E)",
+      url: "",
+      search: "Utopia Kitchen countertop compost bin 1.3 gallon stainless steel",
+    },
+    "oxo-easyclean": {
+      name: "OXO Good Grips Easy-Clean Compost Bin 1.75 gal (B07ZDRTFYN)",
+      url: "",
+      search: "OXO Good Grips Easy-Clean Compost Bin 1.75 gallon",
+    },
+    "redfactor-13gal": {
+      name: "RED FACTOR Premium Compost Bin 1.3 gal Stainless dual-filter (B088SRKM1P)",
+      url: "",
+      search: "RED FACTOR compost bin kitchen countertop stainless steel dual filter 1.3 gallon",
+    },
+    "kazai-elin": {
+      name: "KAZAI Compost Bin Kitchen Elin 1.2 gal Bamboo Lid & Filter (B0D8CMP3XR)",
+      url: "",
+      search: "KAZAI compost bin kitchen Elin countertop wooden lid filter",
+    },
+    "simplehuman-4l": {
+      name: "simplehuman Compost Caddy 4 L Brushed Stainless (B08S2P53GD)",
+      url: "",
+      search: "simplehuman compost caddy 4 liter brushed stainless steel",
+    },
+    "jj-compo": {
+      name: "Joseph Joseph Compo Wall Mountable Compost Caddy 1 gal (B08QH197L4)",
+      url: "",
+      search: "Joseph Joseph Compo wall mountable compost caddy 1 gallon",
+    },
+    "airnex-collapsible": {
+      name: "AIRNEX Collapsible Compost Caddy 1 gal Wheat Straw + 2 Carbon Filters (B0B9H2FSB5)",
+      url: "",
+      search: "AIRNEX collapsible compost bin kitchen counter caddy wheat straw",
+    },
+    "undersink-2gal": {
+      name: "Stainless Hanging Compost Bin 2 gal Under-Sink/Wall (B0C6J5447Y)",
+      url: "",
+      search: "stainless steel hanging compost bin 2 gallon under sink lid carbon filter",
+    },
+
     /* ---------- worm bins (best-worm-bins) ---------- */
     "vermihut-plus": {
       name: "The Original VermiHut Plus 5-Tray Worm Composter",
