@@ -92,7 +92,7 @@ window.CC_AFFILIATE = {
     },
     "undersink-2gal": {
       name: "Stainless Hanging Compost Bin 2 gal Under-Sink/Wall (B0C6J5447Y)",
-      url: "https://link.amazon/B08TQbpFh",
+      url: "https://link.amazon/B0e7nQC9G",
       search: "stainless steel hanging compost bin 2 gallon under sink lid carbon filter",
     },
 
