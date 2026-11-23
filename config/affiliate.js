@@ -52,47 +52,47 @@ window.CC_AFFILIATE = {
        note until Newell pastes the tagged URL (aquarium-air-pump precedent). */
     "epica-13gal": {
       name: "Epica Kitchen Compost Bin 1.3 gal Stainless (B00AMNCYNQ)",
-      url: "",
+      url: "https://link.amazon/B09P5tO1L",
       search: "Epica kitchen compost bin countertop 1.3 gallon stainless steel",
     },
     "utopia-13gal": {
       name: "Utopia Kitchen Countertop Compost Bin 1.3 gal Stainless (B015DRQ36E)",
-      url: "",
+      url: "https://link.amazon/B0itf8ZaP",
       search: "Utopia Kitchen countertop compost bin 1.3 gallon stainless steel",
     },
     "oxo-easyclean": {
       name: "OXO Good Grips Easy-Clean Compost Bin 1.75 gal (B07ZDRTFYN)",
-      url: "",
+      url: "https://link.amazon/B00eHi1GU",
       search: "OXO Good Grips Easy-Clean Compost Bin 1.75 gallon",
     },
     "redfactor-13gal": {
       name: "RED FACTOR Premium Compost Bin 1.3 gal Stainless dual-filter (B088SRKM1P)",
-      url: "",
+      url: "https://link.amazon/B0eQrNOxa",
       search: "RED FACTOR compost bin kitchen countertop stainless steel dual filter 1.3 gallon",
     },
     "kazai-elin": {
       name: "KAZAI Compost Bin Kitchen Elin 1.2 gal Bamboo Lid & Filter (B0D8CMP3XR)",
-      url: "",
+      url: "https://link.amazon/B0gCIP51s",
       search: "KAZAI compost bin kitchen Elin countertop wooden lid filter",
     },
     "simplehuman-4l": {
       name: "simplehuman Compost Caddy 4 L Brushed Stainless (B08S2P53GD)",
-      url: "",
+      url: "https://link.amazon/B00BggD7h",
       search: "simplehuman compost caddy 4 liter brushed stainless steel",
     },
     "jj-compo": {
       name: "Joseph Joseph Compo Wall Mountable Compost Caddy 1 gal (B08QH197L4)",
-      url: "",
+      url: "https://link.amazon/B03P32nFU",
       search: "Joseph Joseph Compo wall mountable compost caddy 1 gallon",
     },
     "airnex-collapsible": {
       name: "AIRNEX Collapsible Compost Caddy 1 gal Wheat Straw + 2 Carbon Filters (B0B9H2FSB5)",
-      url: "",
+      url: "https://link.amazon/B0eHSRDeN",
       search: "AIRNEX collapsible compost bin kitchen counter caddy wheat straw",
     },
     "undersink-2gal": {
       name: "Stainless Hanging Compost Bin 2 gal Under-Sink/Wall (B0C6J5447Y)",
-      url: "",
+      url: "https://link.amazon/B08TQbpFh",
       search: "stainless steel hanging compost bin 2 gallon under sink lid carbon filter",
     },
 
