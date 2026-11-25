@@ -26,6 +26,34 @@ window.CC_AFFILIATE = {
 
   products: {
     /* ---------- compost thermometers (article 03) ---------- */
+    "achla-sifter": {
+      name: "Achla Designs Compost Sifter Screen with Handles",
+      url: "https://link.amazon/B02eAeURw"
+    },
+    "raw-rutes-rr990": {
+      name: "Raw Rutes RR-990 Stainless Garden Sifter",
+      url: "https://link.amazon/B00nINrPh"
+    },
+    "dootiva-sifter": {
+      name: "dootiva Rotary Soil Sifter 13-inch",
+      url: "https://link.amazon/B05Bo4vy5"
+    },
+    "earthkeeping-ekg201": {
+      name: "Earthkeeping Green Rolling Garden Sifter EKG-201",
+      url: "https://link.amazon/B0jeZi8er"
+    },
+    "hardware-cloth-sifter": {
+      name: "Handmade 1/2-inch Hardware Cloth Soil Sifter",
+      url: "https://link.amazon/B00N14epS"
+    },
+    "qutiing-sifter-set": {
+      name: "QUTIING 3-Piece Bucket Top Soil Sifter Set",
+      url: "https://link.amazon/B0ahBHcec"
+    },
+    "carod-sifter": {
+      name: "CAROD 40W Motorized Soil Sifter 39x19.5",
+      url: "https://link.amazon/B03TIuDhC"
+    },
     "reotemp-20": {
       name: "REOTEMP 20-inch Backyard Compost Thermometer",
       url: "https://amzn.to/4i0tVFb"
